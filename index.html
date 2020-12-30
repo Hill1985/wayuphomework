@@ -3,53 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WayUp_homework</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>wayup_homework</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
-                <img src="img/logo.jpg" alt="Logo">
-            </div>
-            <h1 class="font_color">Вступление</h1>
-            <p class="header_text">Это текст моего второго домашнего задания.</p>
-            <p class="span_color">Не верится, но мне уже удается писать свой <span>первый код на HTML</span></p>
-        </header>
-        <section>
-            <div class="first_text">
-            <h2 class="first_h2">Что дальше?</h2>
-            <p>Дальше, я буду получать всё больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a class="link" href="https://www.google.com">Почитать больше в Google</a></p>
-            </div>
-        </section>
-        <section>
-                <div class="subscribe">
-                    <h2 class="second_h2">Что я буду уметь?</h2>
-                    <p class="subscribe_par">Я смогу создавать вот такие замечательные формы:</p>
-                    <div class="subscribe_form">
-                        <form action="#" class="subscribe_form">
-                            <input type="text" class="subscribe_input" placeholder="Имя" required>
-                            <input type="email" class="subscribe_input" placeholder="E-mail" required>
-                            <input type="tel" class="subscribe_input" placeholder="Телефон" required>
-                            <button class="subscribe_button" alt="check">Отправить форму</button>
-                        </form>
-                    </div>
+    <header id="header" class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="WayUp" class="logo">
+            <div class="wrapper">
+                <div class="offer">
+                    <h1 class="title">С помощью верстки
+                        я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+                    <p class="intro"> Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это <br> на 100%. Меня не остановить!</p>
+                    <a href="#" class="btn">Двигаться к мечте!</a>
                 </div>
-                <div class="second_text">
-                    <p>А также, я научусь создавать списки: </p>
-                        <ul class="subscribe_list">
-                            <li>С одним пунктом</li>
-                            <li>С несколькими пунктами</li>
-                            <li>И даже с тремя отдельными пунктами</li>
-                        </ul>
-                </div>
-        </section>
-        <footer class="footer">
-            <div class="footer_text">
-            <h2 class="footer_h2" >Отличное начало!</h2>
-            <a href="#">Перейти на страницу первого занятия курса</a>
+                <img src="img/image1.png" alt="Image" class="image_first">
             </div>
-        </footer>
-    </div>
+        </div>
+    </header>
+    <section id="awaiting" class="awaiting">
+        <div class="container">
+            <h2 class="section_title">Что меня ждет впереди</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3 class="skill_title">Свободное время</h3>
+                    <p class="skill_text">Мне нужно свободное время на семью и самое настоящее</p>
+                </div>
+                <div class="skill skill_travel">
+                    <h3 class="skill_title">Яркие путешествия</h3>
+                    <p class="skill_text">Работать откуда угодно - что может быть лучше?</p>
+                </div>
+                <div class="skill skill_create">
+                    <h3 class="skill_title">Создание ценности</h3>
+                    <p class="skill_text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact_form" class="contact_form">
+        <div class="container">
+            <h2 class="section_title">Форма заказа билета в будущее</h2>
+            <form action="#" class="form">
+                <input type="text" class="input" name="name_input" placeholder="Имя" required>
+                <input type="email" class="input" name="email_input" placeholder="E-mail" required>
+                <input type="phone" class="input" name="tel_input" placeholder="Телефон" required>
+                <input type="text" class="input" name="text_input" placeholder="Куда я полечу в ближайшее время?" required>
+                <button type="submit" class="btn btn_form">Двигаться к мечте!</button>
+            </form>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
